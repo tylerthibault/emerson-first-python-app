@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="number_label">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>220</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Number</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="guess_input">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>220</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="guess_btn">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>220</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Guess</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="guess_count_label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Your Guess Count</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="instructions">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>180</y>
+      <width>271</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Instructions Here</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="guess_count_text">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>16</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="restart_btn">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>20</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Restart Game</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_100">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>100</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1 - 100</string>
+    </property>
+    <property name="num_value" stdset="0">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_1000">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>100</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1 - 1000</string>
+    </property>
+    <property name="num_value" stdset="0">
+     <string>1000</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_10000">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>100</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1 - 10000</string>
+    </property>
+    <property name="num_value" stdset="0">
+     <string>10000</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_100000">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>100</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1 - 100000</string>
+    </property>
+    <property name="num_value" stdset="0">
+     <string>100000</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_1000000">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>100</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>1 - 1000000</string>
+    </property>
+    <property name="num_value" stdset="0">
+     <string>1000000</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="scoreboard">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>310</y>
+      <width>771</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name_label">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="name_input">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>280</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="name_btn">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>280</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Submit Name</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
